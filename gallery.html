@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>My Gallery</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon/xgod-favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+    <!-- Owl Carousle CSS -->
+    <link rel="stylesheet" href="./javaScript/owl_carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./javaScript/owl_carousel/css/owl.theme.default.min.css" />
+
+    <!-- Magnific Pop-up CSS -->
+    <link rel="stylesheet" href="./javaScript/Magnific-Popup/dist/magnific-popup.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/2cc42bf4c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar START -->
+    <nav class="navigation-bar navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html">
+            <img class="brand-logo" src="./images/logo/navbar-logo.png" alt="navbar-logo" />
+            <!-- <p>XGoD</p> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span>
+            </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else
+                                here</a>
+                    </div>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation Bar END -->
+
+    <!-- Gallery START -->
+    <section id="gallery" class="my-5">
+        <h1 class="text-center text-capitalize">gallery</h1>
+        <hr class="mx-auto w-25" />
+        <div class="container">
+            <div class="button-group my-5">
+                <button type="button" class="active" data-filter=".all">All</button>
+                <button type="button" data-filter=".popular">Popular</button>
+                <button type="button" data-filter=".latest">Latest</button>
+                <button type="button" data-filter=".following">Following</button>
+                <button type="button" data-filter=".upcoming">Upcoming</button>
+            </div>
+            <div class="row gallery-row my-5 mx-auto text-center">
+                <div class="col-xxl-4 col-lg-4 col-md-6 latest all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p1.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p1.jpg" alt="p1" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">minimal design</h4>
+                        <span class="text-secondary">Latest, Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-4 col-md-6 popular all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p2.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p2.jpg" alt="p2" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">paint wall</h4>
+                        <span class="text-secondary">Popular, Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-4 col-md-6 popular all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p3.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p3.jpg" alt="p3" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">female light</h4>
+                        <span class="text-secondary">Popular, Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-4 col-md-6 popular all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p4.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p4.jpg" alt="p4" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">fourth air</h4>
+                        <span class="text-secondary">Popular, Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-4 col-md-6 upcoming all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p5.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p5.jpg" alt="p5" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">together sign</h4>
+                        <span class="text-secondary">Following, Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-4 col-md-6 following all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p6.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p6.jpg" alt="p6" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">multiple fown</h4>
+                        <span class="text-secondary">Upcoming, Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-4 col-md-6 following all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p7.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p7.jpg" alt="p7" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">green heaven</h4>
+                        <span class="text-secondary">Following, Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-4 col-md-6 following all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p8.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p8.jpg" alt="p8" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">fly male</h4>
+                        <span class="text-secondary">Following, Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-4 col-md-6 upcoming all">
+                    <figure>
+                        <a class="test-popup-link" href="./images/gallery/p9.jpg"><img class="gallery-img shadow-lg img-fluid" src="./images/gallery/p9.jpg" alt="p9" /></a>
+                    </figure>
+                    <div class="title pb-4">
+                        <h4 class="text-uppercase">camera lens</h4>
+                        <span class="text-secondary">Upcoming, Portfolio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery END -->
+
+    <!-- Footer START -->
+    <footer id="footer" class="bg-light">
+        <div class="container">
+            <div class="footer-content d-flex flex-column justify-content-center flex-wrap">
+                <div class="site-logo text-center py-4">
+                    <a href="./index.html"><img class="img-fluid" src="./images/logo/banner-logo.png" alt="" /></a>
+                </div>
+                <div class="social text-center my-3">
+                    <h5 class="text-uppercase">follow me</h5>
+                    <hr class="mx-auto w-25 mb-4" />
+                    <a href="#" class="mx-2" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="facebook fab fa-facebook-f fa-2x"></i
+            ></a>
+                    <a href="#" class="mx-2" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="instagram fab fa-instagram fa-2x"></i
+            ></a>
+                    <a href="#" class="mx-2" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="github fab fa-github fa-2x"></i
+            ></a>
+                    <a href="#" class="mx-2" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="twitter fab fa-twitter fa-2x"></i
+            ></a>
+                    <a href="#" class="mx-2" data-toggle="tooltip" data-placement="bottom" title="+91-9136563299"><i class="phone fas fa-phone fa-2x"></i
+            ></a>
+                    <hr class="mx-auto w-25 mu-4" />
+                </div>
+            </div>
+        </div>
+        <div class="copyright bg-success text-center">
+            <p>Copyright&copy; XGoD_Devs 2020</p>
+        </div>
+    </footer>
+    <!-- Footer END -->
+
+    <!-- Optional javaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Isotope JS file -->
+    <script src="./javaScript/isotope/javaScript/isotope.min.js"></script>
+
+    <!-- Owl Carousel JS file -->
+    <script src="./javaScript/owl_carousel/javaScript/owl.carousel.min.js"></script>
+
+    <!-- Magnific Pop-up JS file -->
+    <script src="./javaScript/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!-- External javaScript -->
+    <script src="./javaScript/main.js"></script>
+
+    <!-- Internal javaScript -->
+    <script>
+        var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+</body>
+
+</html>
